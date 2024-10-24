@@ -1,10 +1,15 @@
-import logo from './logo.svg';
-import './App.css';
-
+import logo from "./logo.svg";
+import "./App.css";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+// import Home from "./components/Home.jsx";
+import NavBar from "./components/NavBar.jsx";
 function App() {
   return (
     <div className="App">
-      <h1 className='text-red-400 text-3xl'> we just wan start to dey build  </h1>
+      <BrowserRouter>
+        <NavBar />
+        <Routes>{/* <Route path="/" element={<Home />} /> */}</Routes>
+      </BrowserRouter>
     </div>
   );
 }
