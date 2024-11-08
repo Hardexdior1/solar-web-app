@@ -1,6 +1,6 @@
 import React from "react";
 // import Blog from "../Components/Blog";
-// import CounterSection from "../Components/CounterSection";
+import CounterSection from "../components/CounterSection";
 // import About from "../Components/About";
 // import Projects from "../Components/Projects";
 import Products from "../components/Products";
@@ -12,7 +12,7 @@ const Home = () => {
     <div>
       {/* <HeroSwiper /> */}
 
-      {/* <CounterSection /> */}
+      <CounterSection />
       {/* <About /> */}
       <Products />
 
