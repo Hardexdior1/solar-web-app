@@ -1,19 +1,19 @@
 import React from "react";
 // import Blog from "../Components/Blog";
 import CounterSection from "../components/CounterSection";
-// import About from "../Components/About";
+import About from "../components/About"
 // import Projects from "../Components/Projects";
 import Products from "../components/Products";
 // import nlid from "../videos/document_5888497005738596081.mp4";
 // import Reviews from "../Components/Reviews"
-// import HeroSwiper from "../Components/HeroSwiper"
+import HeroSwiper from "../components/HeroSwiper"
 const Home = () => {
   return (
     <div>
-      {/* <HeroSwiper /> */}
+      <HeroSwiper />
 
       <CounterSection />
-      {/* <About /> */}
+      <About />
       <Products />
 
       {/* <div className="px-6 mt-14 h-auto bg-black  md:px-12 lg:px-24">

@@ -6,6 +6,7 @@ import NavBar from "./components/NavBar.jsx";
 import Contact from "./components/Contact.jsx";
 import Footer from "./components/Footer.jsx";
 import Home from "./pages/Home.jsx";
+import AboutExt from "./components/AboutExt.jsx";
 function App() {
   return (
     <div className="App">
@@ -13,6 +14,7 @@ function App() {
         <NavBar />
         <Routes>
           <Route path="/" element={<Home />} />
+          <Route path="/aboutext" element={<AboutExt />} />
           <Route path="/contact" element={<Contact />} />
         </Routes>
         <Footer />
