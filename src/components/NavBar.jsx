@@ -26,12 +26,12 @@ const NavBar = () => {
       <nav
         className={
           isScrolled
-            ? "z-10 hidden md:flex md:items-center md:justify-between md:px-20 py-6 md:fixed left-0 right-0 bg-green-800 shadow-lg duration-[300ms] text-white"
-            : "hidden md:flex bg-blue-800 md:items-center md:justify-between md:px-20 py-6 shadow-lg duration-[300ms] text-white"
+            ? "z-10 hidden md:flex md:items-center md:justify-between md:px-20 py-6 md:fixed left-0 right-0 bg-gray-600 shadow-lg duration-[300ms] text-white"
+            : "hidden md:flex bg-gray-800 md:items-center md:justify-between md:px-20 py-6 shadow-lg duration-[300ms] text-white"
         }
       >
         <Link to="/">
-          <img src={logo} alt="logo" className="w-14 h-auto" />
+          <img src={logo} alt="logo" className="w-20 h-15 radius-20" />
 
           {/* Adjust size if needed */}
         </Link>
@@ -85,7 +85,7 @@ const NavBar = () => {
             </a>
           </li>
 
-          <li>
+          {/* <li>
             <Link
               to="/team"
               className={
@@ -97,7 +97,7 @@ const NavBar = () => {
             >
               Team
             </Link>
-          </li>
+          </li> */}
 
           <li>
             <a
@@ -112,7 +112,7 @@ const NavBar = () => {
               {/* <Link
                 // to="#blog"
                > */}
-              Projects
+              Products
               {/* </Link> */}
             </a>
           </li>
@@ -133,7 +133,7 @@ const NavBar = () => {
 
         <div>
           <a href="#about">
-            <button className="bg-yellow-500 rounded text-white px-6 py-2 font-bold hover:bg-yellow-600 transition duration-300">
+            <button className="bg-yellow-700 rounded text-white px-6 py-2 font-bold hover:bg-yellow-500 transition duration-300">
               Get Started
             </button>
           </a>
@@ -246,7 +246,7 @@ const NavBar = () => {
                 setShowNav(true);
               }}
             >
-              Projects
+              Products
             </a>
           </li>
           <li>
@@ -265,7 +265,7 @@ const NavBar = () => {
               Contact
             </Link>
           </li>
-          <li>
+          {/* <li>
             <Link
               to="/team"
               className={
@@ -280,10 +280,10 @@ const NavBar = () => {
             >
               Team
             </Link>
-          </li>
+          </li> */}
           <li>
             <a href="#get-started">
-              <button className="bg-yellow-500 rounded text-white px-6 py-2 font-bold hover:bg-yellow-600 transition duration-300">
+              <button className="bg-yellow-700 rounded text-white px-6 py-2 font-bold hover:bg-yellow-600 transition duration-300">
                 Get Started
               </button>
             </a>
