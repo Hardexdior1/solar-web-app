@@ -11,11 +11,11 @@ const CounterSection = () => {
       onEnter={() => setCounterOn(true)}
       onExit={() => setCounterOn(false)}
     >
-      <div className="p-3 bg-[#1E1E2F] text-white font-bold text-center ">
+      <div className="py-8 px-6 bg-[#1E1E2F] text-white font-bold text-center ">
         <h1 className="text-3xl"> 2023 AT A GLANCE</h1>
         <p> Here’s a brief overview of our performance in the past year.</p>
       </div>
-      <div className="p-5 bg-[#1E1E2F] text-white font-bold flex items-center justify-between px-20 py-2 md:px-20 py-10 mb-8">
+      <div className="x-5 py-6 border  font-bold flex items-center justify-between px-20 py-2 md:px-20 py-10 mb-8">
         <div>
           <div className="flex gap-1 items-center">
             {counterOn && (

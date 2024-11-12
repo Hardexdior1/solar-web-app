@@ -6,11 +6,11 @@ import About from "../components/About"
 import Products from "../components/Products";
 // import nlid from "../videos/document_5888497005738596081.mp4";
 // import Reviews from "../Components/Reviews"
-import HeroSwiper from "../components/HeroSwiper"
+// import HeroSwiper from "../Components/HeroSwiper"
 const Home = () => {
   return (
     <div>
-      <HeroSwiper />
+      {/* <HeroSwiper /> */}
 
       <CounterSection />
       <About />

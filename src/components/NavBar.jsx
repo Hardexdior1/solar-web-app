@@ -31,7 +31,7 @@ const NavBar = () => {
         }
       >
         <Link to="/">
-          <img src={logo} alt="logo" className="w-22 h-20 radius-20" />
+          <img src={logo} alt="logo" className="w-20 h-15 radius-20" />
 
           {/* Adjust size if needed */}
         </Link>
